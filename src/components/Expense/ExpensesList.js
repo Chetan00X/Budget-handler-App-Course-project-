@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import ExpenseItem from "./ExpenseItem";
 import "./ExpensesList.css";
 const ExpensesList = (props) => {
@@ -20,3 +21,6 @@ const ExpensesList = (props) => {
 };
 
 export default ExpensesList;
+=======
+let chetan ="chetan srivastava";
+>>>>>>> 00cd6486b06c3cad3b4e09b8ad830a651c664637
