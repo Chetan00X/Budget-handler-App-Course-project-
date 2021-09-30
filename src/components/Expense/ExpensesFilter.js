@@ -6,12 +6,11 @@ const ExpensesFilter = (props) => {
   const [changeYear, setChangeYear] = useState("");
   const yearChangeHandler = (e) => {
     setChangeYear(e.target.value);
+    props.onSelectedYear(changeYear);
     console.log("From expense filter");
     console.log(e.target.value);
   };
-  const sendYearData = () => {
-    props.onSelectedYear(changeYear);
-  };
+
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
